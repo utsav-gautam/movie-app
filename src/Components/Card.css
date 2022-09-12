@@ -1,0 +1,33 @@
+.card {
+  width: 15rem;
+  flex-grow: 1;
+  background-color: #1b1b1b;
+  color: white;
+  border-radius: 1px;
+  padding: 0 0 1rem 0;
+  overflow: hidden;
+  position: relative;
+}
+.card-title {
+  margin: 1rem 0 0 1rem;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: 50;
+}
+.card:hover {
+  border: 1px solid #eaeff2;
+  cursor: pointer;
+}
+.card-button {
+  width: 50%;
+  position: absolute;
+  font-size: 14px;
+  background-color: #1b1b1b;
+  border-radius: 1px;
+  border: none;
+}
+
+.card img {
+  content-visibility: auto;
+  background-color: #1b1b1b;
+}

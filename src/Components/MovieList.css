@@ -1,0 +1,30 @@
+.movieList {
+  background-color: black;
+  color: white;
+  overflow: hidden;
+}
+.movieListHeader {
+  margin: 2rem;
+  text-align: center;
+}
+.movieContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  gap: 1rem;
+}
+.page-label-container {
+  display: flex;
+  width: 50vw;
+  margin: 2rem auto;
+  justify-content: center;
+}
+
+.page-label-container:hover {
+  cursor: pointer;
+}
+.page-link {
+  color: white;
+  background-color: #282828;
+}

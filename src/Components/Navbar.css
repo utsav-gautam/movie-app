@@ -1,0 +1,24 @@
+.Navbar {
+  align-content: center;
+  background-color: black;
+}
+.Navbar-child {
+  margin: 0.5rem;
+  padding: 0.2rem;
+  color: white;
+  font-weight: 550;
+}
+.Navbar-logo {
+  display: flex;
+  color: white;
+  font-size: 1.3rem;
+  align-items: center;
+}
+.Navbar-container {
+  display: flex;
+  width: 23vw;
+  padding-left: 1rem;
+}
+.Navbar-container:hover {
+  cursor: pointer;
+}
